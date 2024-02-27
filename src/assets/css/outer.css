@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+#layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#q-form{
+    width: 500px;
+}
+body{
+    background: url("../img/skater-dream-snowy-2560x1080-13696.jpg") no-repeat center;
+}

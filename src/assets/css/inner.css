@@ -1,0 +1,56 @@
+@media (min-width:1010px ) {
+    #sendMenu{
+        display:flex;
+    }
+    #sendList{
+        border-radius: 10px 0 0 0;
+    }
+    #leftSend{
+        border-radius: 0 0 0 10px;
+    }
+    #content{
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #rightList{
+        border-radius: 0 10px 0 0;
+    }
+    #rightContent {
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        border-top: 0;
+        border-left: 0;
+        border-radius: 0 0 10px 0;
+    }
+    #btnMenu{
+        display: none;
+    }
+    #q-editor{
+        border: none
+    }
+
+}
+@media (max-width: 1010px) {
+    #sendMenu{
+        padding:0;
+        box-sizing: border-box;
+    }
+    #content{
+        display:none
+    }
+    #sendList{
+        border-radius: 0 0 0 0;
+    }
+    #leftSend{
+        border-radius: 0 0 0 0;
+    }
+}
+.my-menu-link{
+    color: white;
+    background: #58a7ff;
+}
+body{
+    background-color: #f5efef;
+}
+.q-message-text--sent{
+    background-color: white;
+}
